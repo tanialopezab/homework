@@ -1,0 +1,34 @@
+Por qué los enlaces son verdes y no rojos
+
+ul.news li.news__item a.news__item-link se encuentra en la zona más inferior de la css y esta zona prevalece sobre lo
+escrito en la parte superior
+
+
+
+
+
+Hacer que los enlaces sean rojos sin tocar el CSS
+
+se puede hacer quitando la clase inicial ".news" puesto que de ella derivan las demas sub clases que afectan a los elementos HTML
+
+
+
+
+
+
+Rehacer el HTML usando <div> en lugar de <ul> y <li>. ¿Qué pasa?
+
+los textos cambian de color y formato además de que desaparecen las viñetas.
+lo primero se debe a que las clases que se han definido en el css ya no corresponden a las clases que estan definidas en html
+
+las clases estaban unidas al tipo de etiqueta ul.news>>> deberia ser div.news
+
+
+
+Comentar el CSS que no se puede tocar y reescribirlo usando una clase por selector para que se vea igual.
+
+
+
+
+
+BONUS: Cambiar ahora entre <div> y <ul>/<li>

@@ -1,0 +1,33 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+
+.pag-periodico {
+max-width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border: 2px solid blue;
+
+}
+
+.bloque-noticia {
+    max-width: 50%;
+    padding: 20px;
+    border:2px solid green;
+    text-align: center;
+
+}
+/* faltaria hacer que la imagen de la noticia 5 se expandiese al ancho de su contenedor */
+container.foto #fith {
+    max-width: 100%;
+}
+
+#fith {
+    order: -1;
+    max-width: 100%;
+}

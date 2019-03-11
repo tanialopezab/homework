@@ -1,0 +1,22 @@
+.div {
+    height: 100px;
+    width: 100px;
+    border: solid; 
+
+}
+
+
+.div--inicio{
+    background-color: blue;
+    display: block;
+}
+.div--intermedio {
+    background-color: chartreuse;
+    display: inline;
+}
+
+.div--final {
+    background-color: red;
+    display: inline-block }
+
+    

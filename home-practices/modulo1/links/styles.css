@@ -1,0 +1,36 @@
+html
+{
+    background: rgb(235, 182, 182);
+}
+h1
+{
+ 
+    font-family: Lucida Sans;
+    font-size: 24px;
+    color: crimson;
+    background-color: rgb(221, 189, 150);
+}
+h2{
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    color: rgb(201, 90, 112);
+
+}
+h3{
+    font-family: 'Lucida Sans';
+    font-size: 18px;
+    color: rgb(206, 101, 180); 
+}
+p
+{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color: black;
+    
+}
+
+a
+{
+    color: purple;
+
+}

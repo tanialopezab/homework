@@ -1,0 +1,16 @@
+.container {
+    width: 1100px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+    border: 2px solid red;
+}
+
+img {
+    border: 2px solid blue;
+}
+/* Añado bordes al container y a las imagenes para visualizarlo mejor */

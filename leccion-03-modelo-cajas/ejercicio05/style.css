@@ -1,0 +1,31 @@
+
+
+.container {
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    border: 5px solid #ff0000;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    /* ENUNCIADO */
+
+    /* Hacer un div de 100x100px usando las propiedades width y height, incluir dentro una imagen de 100x100px y probar:
+1 Añadir un padding de 10px   ok
+2 Añadir un borde de 5px   ok
+3 Cambiar el modelo de caja a border-box y explica qué ha pasado-----
+Centrar la caja utilizando el valor auto en los margenes horizontales. */
+
+    /* añado borde para facilitar la visualizacion */
+/* 3 y 4 Al cambiar a border- box: toma las medidas integrando el padding y el borde. El contenido mide 100x100 y el container tb mide 100x100 pero en esta medcicion incluye los valores de padding y borde 10paddingx2+5bordex2+70contenido  si quisiera centrarlo tendria que sumar padding y border por los dos lados 10paddingx2+5bordex2+100contenido=  130 */
+
+
+/* EN AUTO los valores margin-left y right afectan a los laterales obviamente
+el valor margin (left,right,top,bottom), afecta a laterales y centra arriba la imagen */
+}
+
+img {
+    border: 1px solid blue ;
+}

@@ -1,0 +1,24 @@
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    background-color: azure;
+    border: 1px solid red;
+
+}
+
+.element {
+    width: max-width;
+    height: max-height;
+    color: yellowgreen;
+    background-color: coral;
+    border: 1px solid orange;
+
+}
+
+/* el eje principal es X vertical e Y Horizontal partiendo de la esquina superior de la pantalla */

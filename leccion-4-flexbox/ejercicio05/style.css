@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* defino el body como un contenedor flexible y dentro los items*/
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    background-color: hotpink;
+
+    
+}
+
+/* se comportaran como items dentro del contenedor flex .cuerpo*/
+header {
+    color: white;
+    font-style: italic;
+    background-color: grey;
+
+    max-width: 100vw;
+    height: 16vh ;
+
+}
+
+main {
+    color: white;
+    font-style: italic;
+    background-color: lightseagreen;
+
+/* añado el max para abarcar tooooda la pantalla */
+/* añado un porcentaje del alto para cada bloque */
+    max-width: 100vw;
+    height: 76vh;
+
+    /* he intentado añadir propiedades flex grow para que el bloque crezca a lo largo y no lo hace */
+     /*lo mismo con flex shrink en el footer y nada  */
+}
+
+footer {   
+    color: white;
+    font-style: italic;
+    background-color: goldenrod;
+   
+    max-width: 100vw;
+    height:16vh ;
+
+    
+
+}
+
+
