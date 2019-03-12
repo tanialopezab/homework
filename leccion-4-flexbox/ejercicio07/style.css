@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    border:  1px solid red;
+    max-height: 100%;
+    
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(187, 164, 209);
+   
+    
+}
+
+.contenedor {
+    max-width: 840px;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+img_box {
+ display: flex-box;
+ height: 153px;
+ width: 153px;
+ 
+}
